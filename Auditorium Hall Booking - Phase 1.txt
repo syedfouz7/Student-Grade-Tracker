@@ -81,9 +81,7 @@ int main()
             scanf("%10s", d);
             printf("Enter time slot (1-4): ");
             scanf("%d", &s);
-            if (s < 1 || s > 4) {
-                printf("Invalid slot. Enter 1 to 4.\n");
-                break;
+         
             }
             found = 0;
             for (i = 0; i < count; i++) {
